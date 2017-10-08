@@ -107,21 +107,6 @@
     <url-pattern>/test</url-pattern>
   </servlet-mapping>  
   
-  <context-param>
-    <description>Location to store uploaded file</description>
-    <param-name>store_location</param-name>
-    <param-value>
-             /Users/Khalid/Documents/Dev/Servlet/test/
-         </param-value>
-  </context-param>
-  <context-param>
-    <description>Cassandra DB IP address</description>
-    <param-name>clusterAddress</param-name>
-    <param-value>
-             127.0.0.1
-         </param-value>
-  </context-param>
-  <context-param>
     <description>Drupal server address</description>
     <param-name>drupalAddress</param-name>
     <param-value>
